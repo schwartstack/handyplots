@@ -6,7 +6,7 @@ Quick Plot
 \description{
 If you have two numeric vectors of equal length you can use quickplot to quickly look at the potential relationship between them in four graphs at once.
 
-Quickplot will show you a scatter plot with a regression line, a qq-plot to check the normality of the residuals, a residual plot to check the constancy and correlation of the residuals, and a boxplot for a quick overview of the spread of the two vectors.
+Quickplot will show you a scatter plot with a regression line, a qq-plot to check the normality of the residuals, a residual plot to check the constancy and correlation of the residuals, and a boxplot for a quick overview of the spread of the two vectors, and two historgrams to see the distributions of the two vectors.
 }
 \usage{
 quickplot(x, y)

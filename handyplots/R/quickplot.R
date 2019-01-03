@@ -20,12 +20,16 @@ function(x,y){
   }
   
   default=par("mfrow")
-  par(mfrow=c(2,2))
+  par(mfrow=c(2,3))
   plot(x,y,main="Scatter Plot",xlab=deparse(substitute(x)),ylab=deparse(substitute(y)))
   abline(lm(y~x))
   qqnorm(rstudent(lm(y~x)))
   qqline(rstudent(lm(y~x)))
   resplot(lm(y~x))
   boxplot(x,y,names=(c(deparse(substitute(x)),deparse(substitute(y)))),main="Box Plots")
+  hist(x,freq=F)
+  lines(density(x,kernel = "gaussian"))
+  hist(y,freq=F)
+  lines(density(y,kernel = "gaussian"))
   par(mfrow=default)
 }
