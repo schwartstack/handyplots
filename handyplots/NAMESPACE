@@ -1,0 +1,6 @@
+import(stats)
+import(graphics)
+import(tools)
+export(resplot)
+export(ciplot)
+export(quickplot)

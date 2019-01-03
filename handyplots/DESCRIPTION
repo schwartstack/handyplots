@@ -1,0 +1,13 @@
+Package: handyplots
+Type: Package
+Title: Handy plots for visualizing numeric vectors
+Version: 1.0
+Date: 2018-12-01
+Author: Jonathan Schwartz, Mengqi Yin
+Maintainer: Jonathan Schwartz <jzs1986@gmail.com>
+Description: Several handy plots for quickly looking at the relationship between two numeric vectors of equal length. Quickly visualize scatter plots, residual plots, qq-plots, box plots, confidence intervals, and prediction intervals.
+License: GPL (>= 2)
+Imports: stats, graphics
+Depends: R (>= 3.5.1)
+NeedsCompilation: no
+Packaged: 2018-12-03 00:46:01 UTC; schwartstack
