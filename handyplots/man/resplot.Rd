@@ -7,7 +7,8 @@ Residual Plot
 Plot the fitted values vs the studentized or standardized residuals for a \code{glm} or \code{lm} object.
 }
 \usage{
-resplot(model, zoom = NULL, highlight.outliers = FALSE, residuals = c("student","standard"))
+resplot(model, zoom = NULL, highlight.outliers = FALSE, 
+  residuals = c("student","standard"))
 }
 \arguments{
   \item{model}{
@@ -30,7 +31,7 @@ A residual plot shows the fitted values of the response variable on the x-axis a
 Montgomery, D. C., Peck, E. A., Vining, G. G. (2013), Introduction to Linear Regression Analysis, Hoboken, NJ: John Wiley & Sons, Inc.
 }
 \author{
-Jonathan Schwartz, Mengqi Yin
+Jonathan Schwartz
 }
 \seealso{
 \code{\link{plot}},

@@ -44,7 +44,7 @@ the interval of y values the user wishes to display in the plot. If left unspeci
 Montgomery, D. C., Peck, E. A., Vining, G. G. (2013), Introduction to Linear Regression Analysis, Hoboken, NJ: John Wiley & Sons, Inc.
 }
 \author{
-Jonathan Schwartz, Mengqi Yin
+Jonathan Schwartz
 }
 \section{Warning}{
 If \code{x0} is outside the domain of \code{x}, ciplot will extrapolate the data and predict a value of \code{yhat} for the given \code{x0}. This may be dangerous, depending on how your data behaves outside the existing domain.
@@ -55,7 +55,7 @@ If \code{x0} is outside the domain of \code{x}, ciplot will extrapolate the data
 \code{\link{predict}}
 }
 \examples{
-##predicting the mean of the width of an iris's petal whose petal length is 2.5
+##predicting the mean petal width of an iris whose petal length is 2.5
 ciplot(iris$Petal.Length,iris$Petal.Width,x0=2.5,int="conf")
 
 ##predicting the value of a single observation of the width of an iris's petal whose petal length is 2.5

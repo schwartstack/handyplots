@@ -1,11 +1,11 @@
 Package: handyplots
 Type: Package
-Title: Functions to make quick-and-dirty plots, to quickly investigate data
-Version: 1.0
+Title: Handy Plots
+Version: 1.1
 Date: 2019-01-03
 Author: Jonathan Schwartz
 Maintainer: Jonathan Schwartz <jzs1986@gmail.com>
 Description: Several handy plots for quickly looking at the relationship between two numeric vectors of equal length. Quickly visualize scatter plots, residual plots, qq-plots, box plots, confidence intervals, and prediction intervals.
 License: GPL (>= 2)
 Imports: stats, graphics
-Depends: R (>= 3.5.1)
+Depends: R (>= 3.4)

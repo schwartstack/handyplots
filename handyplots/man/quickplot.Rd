@@ -23,7 +23,7 @@ A numeric vector of length > 3 (equal in length to \code{x})
 Montgomery, D. C., Peck, E. A., Vining, G. G. (2013), Introduction to Linear Regression Analysis, Hoboken, NJ: John Wiley & Sons, Inc.
 }
 \author{
-Jonathan Schwartz, Mengqi Yin
+Jonathan Schwartz
 }
 
 \seealso{
