@@ -1,0 +1,1 @@
+This R package contains several handy functions for quickly looking at the relationship between two numeric vectors of equal length. Quickly visualize scatter plots, residual plots, qq-plots, box plots, confidence intervals, and prediction intervals.
